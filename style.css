@@ -348,7 +348,7 @@ whitebox {
     
 }
 
-@media only screen and (min-width: 10px)and (max-width: 635px) {
+@media only screen and (min-width: 450px)and (max-width: 635px) {
     body {
         width: 100%;
     }
@@ -393,6 +393,10 @@ whitebox {
         margin-bottom: 10px;
     }
 
+    .info {
+        margin-left: 15px;
+    }
+
 
     .card {
         font-size: 12px;
@@ -408,4 +412,208 @@ whitebox {
         height: auto;
     }
     
+}
+
+@media only screen and (min-width: 350px)and (max-width: 450px) {
+    body {
+        width: 100%;
+    }
+
+    bluebox {
+        width: 45%;
+    }
+
+    whitebox {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+    }
+
+    middlebox {
+        display: none;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .portfolio {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+    .portfolio:hover {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+    .resume {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+    .resume:hover {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+
+
+    .card {
+        font-size: 10px;
+    }
+
+
+    .photoh img {
+        display: flex;
+        width: 150px;
+        height: auto;
+    }
+
+    .logo img {
+
+    width: 100px;
+    height: auto;
+    }
+    
+    .whoiam {
+        padding-left: 10px;
+    }
+
+    .socialmedia img {
+        width: 100px;
+        height: auto;
+    }
+
+    .info {
+        margin-left: 15px;
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+    
+    .portfolio {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+    }
+    .portfolio:hover {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+    }
+    .resume {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+    }
+    .resume:hover {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width: 0px)and (max-width: 350px) {
+    body {
+        width: 100%;
+    }
+
+    bluebox {
+        width: 50%;
+    }
+
+    whitebox {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    middlebox {
+        display: none;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .portfolio {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .portfolio:hover {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .resume {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        font-size: 13px;
+
+    }
+    .resume:hover {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        font-size: 13px;
+
+    }
+
+
+    .card {
+        font-size: 8px;
+    }
+
+
+    .photoh img {
+        display: flex;
+        width: 100px;
+        height: auto;
+    }
+
+    .logo img {
+
+    width: 70px;
+    height: auto;
+    }
+    
+    .whoiam {
+        padding-left: 10px;
+    }
+
+    .socialmedia img {
+        width: 70px;
+        height: auto;
+    }
+
+    .info {
+        margin-left: 15px;
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+    
+    .portfolio {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .portfolio:hover {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .resume {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .resume:hover {
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
 }
